@@ -1,18 +1,16 @@
 package com.backendless.model;
 
-import javax.persistence.Entity;
 import java.util.Date;
 
-@Entity
-public class Product {
+public class Task {
 
     private String objectId;
     private String name;
-    private String description;
+    private String status;
     private Date created;
     private Date updated;
 
-    public Product() {
+    public Task() {
     }
 
     public String getObjectId() {
@@ -31,12 +29,12 @@ public class Product {
         this.name = name;
     }
 
-    public String getDescription() {
-        return description;
+    public String getStatus() {
+        return status;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
+    public void setStatus(String status) {
+        this.status = status;
     }
 
     public Date getCreated() {

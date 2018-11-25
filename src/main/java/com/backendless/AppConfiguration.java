@@ -9,7 +9,3 @@ public class AppConfiguration {
         SpringApplication.run(AppConfiguration.class, args);
     }
 }
-
-
-// todo command line runner example spring boot
-// todo 
